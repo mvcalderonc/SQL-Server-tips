@@ -6,3 +6,5 @@ CREATE PROCEDURE dbo.myStoreProcedure
     @firstParameter INT,
     @tableParameter dbo.types_myDataType READONLY
 AS
+
+	SELECT * FROM @tableParameter
